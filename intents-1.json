@@ -1,0 +1,106 @@
+{"intents": [
+  {"tag": "greeting",
+  "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+  "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+  "context": [""]
+},
+{"tag": "goodbye",
+"patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+"responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+"context": [""]
+},
+{"tag": "thanks",
+"patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+"responses": ["Happy to help!", "Any time!", "My pleasure"],
+"context": [""]
+},
+{"tag": "noanswer",
+"patterns": [],
+"responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+"context": [""]
+},
+{"tag": "options",
+"patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+"responses": ["I am here to answer questions that you may have on rubber agriculture.","I can help you with latex harvesting inquires","I can answer questions related to plant pathology "],
+"context": [""]
+},
+{"tag": "start tapping",
+"patterns": ["What is the criteria to start tapping in rubber trees?","When should you start tapping?","When to tap?","Tap when?"],
+"responses": ["Tapping can be started in a plantation when 70% of the trees attain a girth of 50 cm at a height of 125 cm from the bud union."],
+"context": [""]
+},
+{"tag": "LFT" ,
+"patterns": [" What is low frequency tapping (LFT)?","What is low frequency tapping?","Low frequency tapping?"],
+"responses": ["When the interval between two consecutive tapping is more than two days it is called low frequency tapping. eg. d3- 104 tapping days/year; d4-78 tapping days/year; d7-52 tapping days per year"],
+"context": [""]
+},
+{"tag": "rain guard",
+"patterns": [" Is it necessary to rain guard rubber trees during rainy season under weekly tapping?","Do we need rain guard trees?","Is rain guarding good?","should you rain guard?"],
+"responses": ["To get the full benefit under weekly tapping rain guarding is essential during this season."],
+"context": [""]
+},
+{"tag": "ethephon",
+"patterns": [" Does ethephon cause any harm to rubber trees?","Does ethephon harm rubber?","Is ethephon harmful?"],
+"responses": ["Application of recommended dose of ethephon does not cause any harm to rubber trees."],
+"context": [""]
+},
+{"tag": "CUT",
+"patterns": ["What are the important points to remember in Controlled Upward Tapping (CUT)?","Controlled upward tapping","CUT"],
+"responses": ["Maintain tapping panel length to one fourth under third daily tapping and one third under weekly tapping. Use only modified gouge knife for tapping and apply recommended dose of ethephon."],
+"context": [""]
+},
+{"tag": "Colletotrichum",
+"patterns": ["What is this symptom of Colletotrichum Circular Leaf Spot disease?","Colletotrichum leaf spot disease","Symptom of Colletotrichum"],
+"responses": ["Round or typical round like"],
+"context": [""]
+},
+{"tag": "symptom-leaves",
+"patterns": ["The symptom is on mature/immature leaves?","Is the symptom on mature leaves?","Does mature/immature leaves show symptoms?"],
+"responses": ["Mature leaves"],
+"context": [""]
+},
+{"tag": "symptom-type",
+"patterns": ["The symptom is spot like or points?","Is the symptom spots or points?"],
+"responses": ["Spots and points"]
+},
+{"tag": "symptoms-number",
+"patterns": ["How many symptoms on leaves"],
+"responses": ["One to many"],
+"context": [""]
+},
+{"tag": "symptom-when",
+"patterns": ["The symptom appear during rainy season"],
+"responses": ["Yes"],
+"context": [""]
+},
+{"tag": "symptom-petiole",
+"patterns": ["Symptom is on petiole?"],
+"responses": ["No"],
+"context": [""]
+},
+{"tag": "symptom-leaf-fall",
+"patterns": ["Leaf fall noticed?"],
+"responses": ["Yes"],
+"context": [""]
+},
+{"tag": "symptom-colour",
+"patterns": ["Spot is either white or black in colour"],
+"responses": ["Black and White"],
+"context": [""]
+},
+{"tag": "symptom-leaf-retain",
+"patterns": ["Infected leaves are retained in the tree?"],
+"responses": ["Yes"],
+"context": [""]
+},
+{"tag": "symptom-tender-leaf",
+"patterns": ["Any infection on tender leaves?"],
+"responses": ["No"],
+"context": [""]
+},
+{"tag": "symptom-protection",
+"patterns": ["Any leaf protection measures carried out?"],
+"responses": ["No/Yes"],
+"context": [""]
+}
+]}
